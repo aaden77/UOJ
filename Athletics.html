@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Athletics - University of Jamaica</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        #headtext{font-size: 45px}
+
+        #navtext{font-size: 18px}
+        #navtext{text-decoration-color: black}
+        #navtext1{font-size: 16px}
+        #navtext1{text-decoration-color: black}
+        #headtext {
+            color: white;
+            text-decoration: none;
+        }
+        #navtext{font-size: 20px}
+        .carousel img{height: 250px; width: 250px;}
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #007bff;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        nav {
+            margin: 10px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #ffffff;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+            background: #ffffff;
+            margin: 10px;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #007bff;
+            color: #fff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .accordion {
+            background-color: #f1f1f1;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .accordion-item {
+            border-bottom: 1px solid #ccc;
+        }
+        .accordion-header {
+            padding: 10px;
+            cursor: pointer;
+            background: #007bff;
+            color: white;
+        }
+        .accordion-content {
+            display: none;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <a href="./University%20Index.html"> <h1 id="headtext" style="font-family: 'Modern No. 20'">University of Jamaica</h1></a>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+
+                <ul id="navtext" class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a style="font-family: 'Modern No. 20'" class="nav-link "  href="./Academics.html">Academics</a>
+                    </li>
+                    <li class="nav-item">
+                        <a style="font-family: 'Modern No. 20'" class="nav-link" href="./Admissions.html">Admissions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a style="font-family: 'Modern No. 20'" class="nav-link" href="./Research.html">Research</a>
+                    </li>
+                    <li class="nav-item">
+                        <a style="font-family: 'Modern No. 20'" class="nav-link" href="./Student%20Life.html">Student Life</a>
+                    </li>
+                    <li class="nav-item">
+                        <a style="font-family: 'Modern No. 20'" class="nav-link" href="./Campus.html">Campus</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a style="font-family: 'Modern No. 20'" class="nav-link" href="./Scholarships.html">Scholarships</a>
+                    </li>
+                    <a href="./Enroll%20Now.html"> <li>  <button style="width: 170px" type="button" class="btn btn-primary">Enroll Now</button></li></a>
+
+                </ul></div>
+
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search UOJ" aria-label="Search">
+
+            </form>
+        </div>
+
+        </div>
+    </nav>
+</header>
+
+
+
+<style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        header {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            margin: 0;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.8em;
+            color: #666;
+        }
+        h2, h3 {
+            color: #007BFF;
+        }
+        .sports-section {
+            margin-top: 20px;
+        }
+        .event {
+            background-color: #e7f3fe;
+            border-left: 6px solid #007BFF;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 5px;
+        }
+        .testimonials {
+            margin-top: 30px;
+            background: #f9f9f9;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        .testimonial {
+            margin: 10px 0;
+            font-style: italic;
+        }
+        .contact-info {
+            margin-top: 20px;
+            padding: 15px;
+            background: #f0f8ff;
+            border-radius: 5px;
+        }
+        .sport-detail {
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #f9f9f9;
+            border: 1px solid #007BFF;
+            border-radius: 5px;
+        }
+        .sport-title {
+            font-weight: bold;
+            color: #007BFF;
+        }
+        .coaches-section {
+            margin-top: 30px;
+            padding: 15px;
+            background: #e7f3fe;
+            border-radius: 5px;
+        }
+        .coach {
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #007BFF;
+            border-radius: 5px;
+        }
+        .coach-title {
+            font-weight: bold;
+            color: #007BFF;
+        }
+        .hero {
+            background: url('https://theamerican.org/images/2021/4/10/UCF_Mens_Soccer_.jpg?width=1416&height=797&mode=crop') no-repeat center center/cover;
+            height: 600px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #ffffff;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+            position: relative;
+        }
+        .hero h1 {
+            font-size: 4em;
+            animation: fadeIn 2s ease-in;
+        }
+    </style>
+
+
+<div class="hero">
+    <h1>Athletics</h1>
+</div>
+<div class="container">
+    <h2>Welcome to Our Athletics Program!</h2>
+    <p>The University of Jamaica is proud to offer a dynamic athletics program that emphasizes physical fitness, teamwork, and personal development. Our athletic facilities include a modern gymnasium, a multi-sport field, and access to nearby beaches for water sports.</p>
+
+    <h3>Sports Offered</h3>
+    <div class="sports-section">
+        <div class="sport-detail">
+            <span class="sport-title">Track and Field:</span>
+            <p>Our track and field program includes sprints, middle-distance, long-distance, hurdles, and field events like long jump and shot put. Athletes train year-round to compete in local and national competitions.</p>
+        </div>
+        <div class="sport-detail">
+            <span class="sport-title">Football:</span>
+            <p>Join our men's and women's Football teams, where players develop their skills through practice and participate in inter-collegiate matches. We focus on teamwork, strategy, and sportsmanship.</p>
+        </div>
+        <div class="sport-detail">
+            <span class="sport-title">Basketball:</span>
+            <p>Our basketball teams compete in local leagues and tournaments. Training emphasizes skill development, teamwork, and physical fitness. All skill levels are welcome!</p>
+        </div>
+        <div class="sport-detail">
+            <span class="sport-title">Volleyball:</span>
+            <p>Both indoor and beach volleyball are offered. Our teams participate in regional competitions, focusing on strategy, agility, and teamwork.</p>
+        </div>
+        <div class="sport-detail">
+            <span class="sport-title">Swimming:</span>
+            <p>Our swimming program caters to all levels, from beginners to advanced swimmers. We participate in various competitions and focus on improving technique and endurance.</p>
+        </div>
+        <div class="sport-detail">
+            <span class="sport-title">Surfing:</span>
+            <p>With access to beautiful beaches, our surfing program teaches skills for all levels. We organize surf competitions and beach clean-up events.</p>
+        </div>
+        <div class="sport-detail">
+            <span class="sport-title">Tennis:</span>
+            <p>Our tennis program focuses on skill development and competitive play. Join our teams for inter-collegiate competitions and local tournaments.</p>
+        </div>
+        <div class="sport-detail">
+            <span class="sport-title">Rugby:</span>
+            <p>Rugby is a growing sport on campus, emphasizing strength, strategy, and teamwork. We participate in friendly matches and tournaments.</p>
+        </div>
+        <div class="sport-detail">
+            <span class="sport-title">Cricket:</span>
+            <p>Join our cricket team and participate in local leagues. We focus on skill development, teamwork, and sportsmanship.</p>
+        </div>
+        <div class="sport-detail">
+            <span class="sport-title">Badminton:</span>
+            <p>Badminton is a fun and competitive sport offered at our campus. Join our team for training and competitions.</p>
+        </div>
+        <div class="sport-detail">
+            <span class="sport-title">Table Tennis:</span>
+            <p>Our table tennis program focuses on skill development and competitive play. Join us for practice sessions and tournaments.</p>
+        </div>
+        <div class="sport-detail">
+            <span class="sport-title">Ultimate Frisbee:</span>
+            <p>Our ultimate frisbee team promotes fitness, teamwork, and fun. We participate in local tournaments and friendly matches.</p>
+        </div>
+    </div>
+
+    <h3>Coaches</h3>
+    <div class="coaches-section">
+        <div class="coach">
+            <span class="coach-title">Coach Michael Thompson</span>
+            <p>Head Coach, Track and Field</p>
+            <p>Coach Thompson has over 15 years of experience coaching athletes at various levels. He specializes in sprinting and hurdles, focusing on technique and mental preparation.</p>
+        </div>
+        <div class="coach">
+            <span class="coach-title">Coach Robert Johnson</span>
+            <p>Head Coach, Football</p>
+            <p>With a background as a collegiate player, Coach Johnson emphasizes teamwork and strategic play. He has led the Men's Football team to multiple championships.</p>
+        </div>
+        <div class="coach">
+            <span class="coach-title">Coach David Lee</span>
+            <p>Head Coach, Basketball</p>
+            <p>Coach Lee brings a wealth of knowledge from his professional playing career. He focuses on skill development and creating a strong team culture.</p>
+        </div>
+        <div class="coach">
+            <span class="coach-title">Coach Emily Rivera</span>
+            <p>Head Coach, Volleyball</p>
+            <p>Coach Rivera has coached at both the high school and collegiate levels. She is passionate about developing players' skills and fostering a love for the game.</p>
+        </div>
+        <div class="coach">
+            <span class="coach-title">Coach Sarah Mitchell</span>
+            <p>Head Coach, Swimming</p>
+            <p>With a background in competitive swimming, Coach Mitchell focuses on technique and endurance training, helping swimmers achieve their personal bests.</p>
+        </div>
+    </div>
+
+    <h3>Join Our Teams</h3>
+    <p>We encourage all students to participate in athletics, whether as a member of a team or through recreational activities. Trials for teams are held at the beginning of each semester, and all skill levels are welcome.</p>
+
+    <h3>Upcoming Events</h3>
+    <div class="sports-section">
+        <div class="event">
+            <h4>Annual Sports Day</h4>
+            <p>Date: March 15, 2024</p>
+            <p>Join us for a day of fun, competition, and school spirit! Events include races, relays, and team challenges.</p>
+        </div>
+        <div class="event">
+            <h4>Inter-Collegiate Championships</h4>
+            <p>Date: April 20-22, 2024</p>
+            <p>Our teams will compete against other universities in various sports. Show your support!</p>
+        </div>
+        <div class="event">
+            <h4>Fitness Workshops</h4>
+            <p>Date: Every Saturday, starting January 2024</p>
+            <p>Join our fitness workshops to learn about nutrition, strength training, and overall wellness.</p>
+        </div>
+        <div class="event">
+            <h4>Community Fun Run</h4>
+            <p>Date: May 10, 2024</p>
+            <p>A fun run open to all students and community members. Prizes for top finishers!</p>
+        </div>
+    </div>
+
+    <h3>Get Involved</h3>
+    <p>Whether you want to compete, volunteer, or support your peers, there are many ways to get involved in athletics at the Coastal Campus. For more information, contact the athletics office at <a href="mailto:athletics@uj.edu.jm">athletics@uj.edu.jm</a>.</p>
+
+    <h3>Student Testimonials</h3>
+    <div class="testimonials">
+        <div class="testimonial">"Joining the track team has been one of the best decisions of my life. The support from coaches and teammates is incredible!" - Sarah J.</div>
+        <div class="testimonial">"The athletics program helped me balance my studies and stay fit. I’ve made lifelong friends here." - Mark T.</div>
+        <div class="testimonial">"Participating in sports has boosted my confidence and improved my time management skills." - Lisa K.</div>
+        <div class="testimonial">"I love the sense of community in the athletics program. Everyone is so encouraging!" - James R.</div>
+    </div>
+
+    <h3>Contact Us</h3>
+    <div class="contact-info">
+        <p>If you have any questions or need more information about our athletics program, feel free to reach out:</p>
+        <p>Email: <a href="mailto:athletics@uj.edu.jm">athletics@ujcoastal.edu.jm</a></p>
+        <p>Phone: +1 (876) 555-1234</p>
+        <p>Office Hours: Monday - Friday, 9 AM - 5 PM</p>
+    </div>
+</div>
+<footer>
+    <p>&copy; 2024 University of Jamaica | All Rights Reserved</p>
+</footer>
+</body>
+</html>
+

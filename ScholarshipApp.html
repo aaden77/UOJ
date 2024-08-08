@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Apply for Scholarship</title>
+</head>
+<body>
+<style>#headtext{font-size: 45px}
+
+#navtext{font-size: 18px}
+#navtext{text-decoration-color: black}
+#navtext1{font-size: 16px}
+#navtext1{text-decoration-color: black}
+#headtext {
+    color: white;
+    text-decoration: none;
+}
+#navtext{font-size: 20px}
+.carousel img{height: 250px; width: 250px;}
+
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 20px;
+    }
+    .container {
+        max-width: 600px;
+        margin: auto;
+        background: white;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+        text-align: center;
+        color: #333;
+    }
+    label {
+        display: block;
+        margin: 10px 0 5px;
+    }
+    input[type="text"], input[type="email"], textarea, select {
+        width: 100%;
+        padding: 10px;
+        margin: 5px 0 15px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    input[type="submit"] {
+        background-color: #5cb85c;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    input[type="submit"]:hover {
+        background-color: #4cae4c;
+    }
+</style>
+
+<div class="container">
+    <h1>UJ Scholarship Application</h1>
+    <form action="/submit-application" method="POST">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone Number:</label>
+        <input type="text" id="phone" name="phone" required>
+
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" rows="4" required></textarea>
+
+        <label for="program">Program of Study:</label>
+        <input type="text" id="program" name="program" required>
+
+        <label for="scholarship-category">Scholarship Category:</label>
+        <select id="scholarship-category" name="scholarship-category" required>
+            <option value="">Select a category</option>
+            <option value="merit-based">Merit-Based</option>
+            <option value="need-based">Need-Based</option>
+            <option value="athletic">Athletic</option>
+            <option value="artistic">Artistic</option>
+            <option value="community-service">Community Service</option>
+        </select>
+
+        <label for="scholarship-amount">Scholarship Amount:</label>
+        <input type="text" id="scholarship-amount" name="scholarship-amount" required>
+
+        <label for="duration">Duration of Scholarship:</label>
+        <input type="text" id="duration" name="duration" required>
+
+        <label for="essay">Personal Essay:</label>
+        <textarea id="essay" name="essay" rows="6" required></textarea>
+
+        <input type="submit" value="Submit Application">
+    </form>
+</div>
+</body>
+</html>

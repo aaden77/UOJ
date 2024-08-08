@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Campus - University of Jamaica</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        #headtext{font-size: 45px}
+
+        #navtext{font-size: 18px}
+        #navtext{text-decoration-color: black}
+        #navtext1{font-size: 16px}
+        #navtext1{text-decoration-color: black}
+        #headtext {
+            color: white;
+            text-decoration: none;
+        }
+        #navtext{font-size: 20px}
+        .carousel img{height: 250px; width: 250px;}
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #007bff;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        nav {
+            margin: 10px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #ffffff;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+            background: #ffffff;
+            margin: 10px;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #007bff;
+            color: #fff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .accordion {
+            background-color: #f1f1f1;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .accordion-item {
+            border-bottom: 1px solid #ccc;
+        }
+        .accordion-header {
+            padding: 10px;
+            cursor: pointer;
+            background: #007bff;
+            color: white;
+        }
+        .accordion-content {
+            display: none;
+            padding: 10px;
+        }
+    </style>
+
+<header>
+    <a href="./University%20Index.html"> <h1 id="headtext" style="font-family: 'Modern No. 20'">University of Jamaica</h1></a>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+
+                <ul id="navtext" class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a style="font-family: 'Modern No. 20'" class="nav-link "  href="./Academics.html">Academics</a>
+                    </li>
+                    <li class="nav-item">
+                        <a style="font-family: 'Modern No. 20'" class="nav-link" href="./Admissions.html">Admissions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a style="font-family: 'Modern No. 20'" class="nav-link" href="./Research.html">Research</a>
+                    </li>
+                    <li class="nav-item">
+                        <a style="font-family: 'Modern No. 20'" class="nav-link" href="./Student%20Life.html">Student Life</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a style="font-family: 'Modern No. 20'" class="nav-link" href="./Athletics.html">Athletics</a>
+                    </li>
+                    <li class="nav-item">
+                        <a style="font-family: 'Modern No. 20'" class="nav-link" href="./Scholarships.html">Scholarships</a>
+                    </li>
+                    <a href="./Enroll%20Now.html"> <li>  <button style="width: 170px" type="button" class="btn btn-primary">Enroll Now</button></li></a>
+
+                </ul></div>
+
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search UOJ" aria-label="Search">
+
+            </form>
+        </div>
+
+        </div>
+    </nav>
+</header>
+<style>
+    body {
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        line-height: 1.6;
+    }
+    header {
+        background: #007bff;
+        color: #fff;
+        padding: 20px 0;
+        text-align: center;
+        position: relative;
+    }
+    nav {
+        margin: 20px 0;
+    }
+    nav a {
+        margin: 0 15px;
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+        transition: color 0.3s;
+    }
+    nav a:hover {
+        color: #ffd700;
+    }
+    .container {
+        width: 80%;
+        margin: auto;
+        overflow: hidden;
+    }
+    footer {
+        text-align: center;
+        padding: 20px 0;
+        background: #333;
+        color: #fff;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+    }
+    .content {
+        background: #fff;
+        padding: 20px;
+        margin: 20px 0;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .hero {
+        background-image: url('https://www.ucf.edu/wp-content/blogs.dir/16/files/2020/10/1310MCA579-Main-site-development-Locations-1600x500-alt.jpg');
+        height: 400px;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        color: white;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    }
+    .hero h1 {
+        font-size: 3em;
+        margin: 0;
+    }
+    .campus-life {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: 20px 0;
+    }
+    .campus-life-item {
+        background: #f9f9f9;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        width: calc(33% - 20px);
+        margin: 10px;
+        padding: 15px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s;
+    }
+    .campus-life-item:hover {
+        transform: translateY(-5px);
+    }
+    @media (max-width: 768px) {
+        .campus-life-item {
+            width: calc(50% - 20px);
+        }
+    }
+    @media (max-width: 480px) {
+        .campus-life-item {
+            width: 100%;
+        }
+    }
+</style>
+</head>
+<body>
+<header>
+    
+    <div class="hero">
+
+        <h1>Welcome to the University of Jamaica  <br>Coastal Campus</h1>
+    </div>
+    <nav>
+        <a href="#about">About </a>
+        <a href="#campus-life">Campus Life</a>
+        <a href="#facilities">Facilities</a>
+        <a href="#events">Events</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+<div class="container">
+    <section id="about" class="content">
+        <h2>About </h2>
+        <p>The University of Jamaica - Coastal Campus is a vibrant educational institution located on the picturesque shores of the Caribbean Sea. This campus specializes in marine sciences, environmental studies, and tourism management, offering students hands-on learning experiences through its state-of-the-art laboratories and research facilities. With a commitment to sustainability and community engagement, the Coastal Campus fosters a collaborative environment where students can explore the rich cultural heritage of Jamaica while developing innovative solutions to global challenges. The campus features lush gardens, modern classrooms, and access to pristine beaches, creating an inspiring backdrop for academic and personal growth.</p>
+    </section>
+    <section id="campus-life" class="content">
+        <h2>Campus Life</h2>
+        <div class="campus-life">
+            <div class="campus-life-item">
+                <h3>Student Organizations</h3>
+                <p>Join various clubs and societies that cater to your interests, from academic to cultural and recreational activities.</p>
+            </div>
+            <div class="campus-life-item">
+                <h3>Cafeteria & Dining</h3>
+                <p>Enjoy a variety of meal options at our cafeteria, offering healthy and delicious choices for every palate.</p>
+            </div>
+            <div class="campus-life-item">
+                <h3>Events & Activities</h3>
+                <p>Participate in a range of social events, workshops, and cultural activities that enrich your university experience.</p>
+            </div>
+            <div class="campus-life-item">
+                <h3>Study Areas</h3>
+                <p>Find quiet spaces and group study areas throughout the campus, perfect for collaboration and focus.</p>
+            </div>
+            <div class="campus-life-item">
+                <h3>Health & Wellness</h3>
+                <p>Access health services and wellness programs that support your physical and mental well-being.</p>
+            </div>
+            <div class="campus-life-item">
+                <h3>Sports & Recreation</h3>
+                <p>Engage in sports and fitness activities at our sports complex, promoting a healthy and active lifestyle.</p>
+            </div>
+        </div>
+    </section>
+    <section id="facilities" class="content">
+        <h2>Facilities</h2>
+        <p>Our campus is equipped with modern facilities, including:</p>
+        <ul>
+            <li>Comprehensive library with digital resources</li>
+            <li>Advanced laboratories for scientific research</li>
+            <li>Recreational areas and sports fields</li>
+            <li>Comfortable study lounges and classrooms</li>
+        </ul>
+    </section>
+    <section id="events" class="content">
+        <h2>Upcoming Events</h2>
+        <ul>
+            <li>Orientation Day - September 1, 2024</li>
+            <li>Annual Sports Day - October 15, 2024</li>
+            <li>Open House - November 20, 2024</li>
+        </ul>
+    </section>
+    <section id="contact" class="content">
+        <h2>Contact Us</h2>
+        <p>Email: <a href="mailto:info@universityofjamaica.edu.jm">info@universityofjamaica.edu.jm</a></p>
+        <p>Phone: +1 (876) 452-6300</p>
+        <p>Address: 123 University Ave, Kingston, Jamaica</p>
+    </section>
+</div>
+<footer>
+    <p>&copy; 2024 University of Jamaica. All Rights Reserved.</p>
+</footer>
+
+
+</body>
+</html>
